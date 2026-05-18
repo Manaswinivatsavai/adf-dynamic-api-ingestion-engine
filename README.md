@@ -31,7 +31,7 @@ This project implements an enterprise-grade, metadata-driven ingestion framework
 
 ---
 
-## 📈 Key Engineering Achievements (ATS Keywords)
+## 📈 Key Engineering Achievements 
 * **Zero-Hardcoding Framework:** Developed a reusable pipeline architecture where a single template processes an infinite number of target API paths simply by scaling the input metadata array.
 * **Race-Condition Mitigation:** Parameterized sink file paths dynamically using unique runtime indices (`item().id`), eliminating file-locking conflicts and ensuring zero data collisions during parallel batch loading.
 * **Enterprise Blueprinting:** Packaged the entire multi-layered infrastructure into a clean, reusable Azure Resource Manager (ARM) template for rapid deployment environments.
